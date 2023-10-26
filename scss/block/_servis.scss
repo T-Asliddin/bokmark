@@ -1,0 +1,160 @@
+.sevis_content{
+    max-width:676px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.servis_title{
+    color: #828282;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+.servis_text{
+    color: #828282;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+max-width: 676px;
+align-items: center;
+}
+
+.option{
+    display: flex;
+    gap: 154px;
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:27px;
+    border-bottom: 1px solid #C8C8C8;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 84px;
+}
+
+.optio_link{
+    color: #747474;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 1.5px;
+}
+
+.activ::after{
+    content: "";
+    width: 243px;
+    border-bottom: 4px solid #888;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.sevis_low{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.sevis_low_content{
+    max-width: 635px;
+}
+
+.sevis_low_title{
+    color: #828282;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px; 
+    margin-bottom: 25px;
+}
+
+.sevis_low_text{
+    color: #828282;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom:40px ; 
+}
+
+.sevis_low_btn{
+    color: #FFF;
+font-size: 13px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 1.5px;
+max-width: 160px;
+padding: 20px 26px;
+border-radius: 10px;
+background-color: #828282;
+}
+
+
+@media screen and (max-width:1130px) {
+    .servis{
+        flex-direction: column;
+    }
+
+    .sevis_low{
+        flex-direction: column;
+    }
+
+    .sevis_low_img{
+        margin-bottom: 24px;
+    }
+
+    .option{
+        flex-direction: column;
+        border-bottom: none ;
+        padding-bottom:0;   
+    }
+
+    .optio_link{
+        border-bottom: 1px solid #C8C8C8;
+        padding-bottom: 24px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .activ{
+        margin-right: auto;margin-left: auto;
+    }
+
+    .activ::after{
+    display: none;    }
+
+    .sevis_low_btn{
+       display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .servis_title{
+        max-width: 311px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+       .servis_text{
+        max-width: 311px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+      .sevis_low_title{
+        max-width: 311px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+       .sevis_low_text{
+        max-width: 311px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
